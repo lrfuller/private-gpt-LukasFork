@@ -8,28 +8,30 @@ Commands for setup:
 
 3. cd private-gpt
 
-4. Install python 3.11 from python directly (simplest version, don't download pyenv, it's a headache on windows, maybe okay on linux though)
+4. Follow this guide: https://docs.privategpt.dev/installation/getting-started/installation (but below are my notes for my specific configuration. Follow the link for python and poetry help.)
+
+6. Install python 3.11 from python directly (simplest version, don't download pyenv, it's a headache on windows, maybe okay on linux though)
 
 https://www.python.org/downloads/release/python-3119/
 
-5. Install poetry
+7. Install poetry
 
 https://python-poetry.org/docs/#installing-with-the-official-installer
 
-7. (in the project directory, do the following commands) ollama pull mistral
-8. ollama pull nomic-embed-text
-9. poetry install --extras "ui embeddings-ollama llms-ollama vector-stores-postgres"
+8. (in the project directory, do the following commands) ollama pull mistral
+9. ollama pull nomic-embed-text
+10. poetry install --extras "ui embeddings-ollama llms-ollama vector-stores-postgres"
 
 (windows)
 
-9. set PGPT_PROFILES=ollama
-10. make run
-11. In another terminal, run: ollama serve
+11. set PGPT_PROFILES=ollama
+12. make run
+13. In another terminal, run: ollama serve
 
 (linux, untested yet, but should work)
 
-9. Make run
-10. ollama serve
+11. Make run
+12. In another terminal, run: ollama serve
 
 # 🔒 PrivateGPT 📑
 
