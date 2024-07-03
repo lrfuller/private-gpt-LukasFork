@@ -27,11 +27,13 @@ https://python-poetry.org/docs/#installing-with-the-official-installer
 11. set PGPT_PROFILES=ollama
 12. make run
 13. In another terminal, run: ollama serve
+14. Enter in the browser: http://localhost:8001
 
 (linux, untested yet, but should work)
 
 11. Make run
 12. In another terminal, run: ollama serve
+13. Enter in the browser: http://localhost:8001
 
 # 🔒 PrivateGPT 📑
 
