@@ -63,7 +63,7 @@ llamacpp:
 
 embedding:
   # Should be matching the value above in most cases
-  mode: huggingface
+  mode: ollama
   ingest_mode: simple
   embed_dim: 768 # 384 is for BAAI/bge-small-en-v1.5
 
